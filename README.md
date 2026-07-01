@@ -31,6 +31,13 @@ If you download this repo, you can use the scripts in [Install-D2K-Music](Instal
 - Linux: run `bash install.sh` from the Install-D2K-Music folder
 - Mac: Double-click on `d2k-music.zip` in Finder, then drag the resulting `Music` folder to the `Mac-Drag-Here` alias
 
+Place the extracted Dune 2000 music `.AUD` files directly in the following folder:
+`
+%APPDATA%\OpenRA\Content\d2k\bits\
+`
+Do not place them in a separate `Music` subfolder. After extraction, the `.AUD` files should be directly inside `bits`.
+
+
 ## Folder Paths
 The path for the OpenRA folder differs per operating system,
 but they are always (unless a portable installation is used)
